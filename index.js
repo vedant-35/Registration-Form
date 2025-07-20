@@ -12,7 +12,7 @@ const username = process.env.MONGODB_USERNAME;
 const password = process.env.MONGODB_PASSWORD;
 
 mongoose.connect(
-  `mongodb+srv://${username}:${password}@cluster0.lswcjp2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`,
+   `mongodb+srv://${username}:${password}@cluster0.djk1cnu.mongodb.net/registration?retryWrites=true&w=majority&appName=Cluster0`,
   {
     serverSelectionTimeoutMS: 5000,
   }
